@@ -1,5 +1,6 @@
 return
 (function()
-  supportedMissions['test1'],
+  table.create(supportedMissions)
+  supportedMissions['test1']
   supportedMissions['test2']
  end)()
