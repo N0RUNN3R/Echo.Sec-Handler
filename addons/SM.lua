@@ -1,3 +1,3 @@
 local bbr=function()return(function()
-    supportedMissions[1] = 'general9'
+    supportedMissions['general9'] = nil
 end)()end;bbr()
