@@ -1,3 +1,22 @@
 local bbr=function()return(function()
     supportedMissions['general9'] = true
+    supportedMissions['default2'] = true
+    supportedMissions['default3'] = true
+    supportedMissions['general11'] = true
+    supportedMissions['general12'] = true
+    supportedMissions['general13'] = true
+    supportedMissions['general15'] = true
+    supportedMissions['general16'] = true
+    supportedMissions['general30'] = true
+    supportedMissions['general31'] = true
+    supportedMissions['general33'] = true
+    supportedMissions['general35'] = true
+    supportedMissions['general36'] = true
+    supportedMissions['general39'] = true
+    supportedMissions['general40'] = true
+    supportedMissions['general45'] = true
+    supportedMissions['general47'] = true
+    supportedMissions['general49'] = true
+    supportedMissions['general51'] = true
+    supportedMissions['general55'] = true
 end)()end;bbr()
