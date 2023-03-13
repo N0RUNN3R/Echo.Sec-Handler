@@ -1,1 +1,5 @@
-return (function() print('test') end)()
+return
+(function()
+  supportedMissions['test1'],
+  supportedMissions['test2']
+ end)()
