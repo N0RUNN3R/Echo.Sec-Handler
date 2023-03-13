@@ -1,6 +1,3 @@
-return
-(function()
-  table.create(supportedMissions)
-  supportedMissions['test1']
-  supportedMissions['test2']
- end)()
+local bbr=function()return(function()
+    supportedMissions[1] = 'LeapofFaith'
+end)()end;bbr()
