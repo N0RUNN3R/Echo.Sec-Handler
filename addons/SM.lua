@@ -1,22 +1,25 @@
 local bbr=function()return(function()
-    supportedMissions['general9'] = true
-    supportedMissions['default2'] = true
-    supportedMissions['default3'] = true
-    --supportedMissions['general11'] = true
-    supportedMissions['general12'] = true
-    supportedMissions['general13'] = true
-    supportedMissions['general15'] = true
-    supportedMissions['general16'] = true
-    supportedMissions['general30'] = true
-    supportedMissions['general31'] = true
-    supportedMissions['general33'] = true
-    supportedMissions['general35'] = true
-    supportedMissions['general36'] = true
-    supportedMissions['general39'] = true
-    supportedMissions['general40'] = true
-    supportedMissions['general45'] = true
-    supportedMissions['general47'] = true
-    supportedMissions['general49'] = true
-    supportedMissions['general51'] = true
-    supportedMissions['general55'] = true
+ local qwr = {
+'general9',
+'default2',
+'default3',
+'general12',
+'general13',
+'general15',
+'general16',
+'general30',
+'general31',
+'general33',
+'general35',
+'general36',
+'general39',
+'general40',
+'general45',
+'general47',
+'general49',
+'general51',
+'general55',
+}
+local function b(c)local d=typeof(c)local e={}if(d=="table")then for c,d in next,c,nil do e[b(c)]=b(d)end;setmetatable(e,b(getmetatable(c)))else e=c end;return e end
+svarsEnv.supportedMissions_Env = b(qwr)
 end)()end;bbr()
