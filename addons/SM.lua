@@ -1,21 +1,3 @@
 local bbr=function()return(function()
-svarsEnv.supportedMissions_Env['general9'] = true
-svarsEnv.supportedMissions_Env['default2'] = true
-svarsEnv.supportedMissions_Env['default3'] = true
-svarsEnv.supportedMissions_Env['general12'] = true
-svarsEnv.supportedMissions_Env['general13'] = true
-svarsEnv.supportedMissions_Env['general15'] = true
-svarsEnv.supportedMissions_Env['general16'] = true
-svarsEnv.supportedMissions_Env['general30'] = true
-svarsEnv.supportedMissions_Env['general31'] = true
-svarsEnv.supportedMissions_Env['general33'] = true
-svarsEnv.supportedMissions_Env['general35'] = true
-svarsEnv.supportedMissions_Env['general36'] = true
-svarsEnv.supportedMissions_Env['general39'] = true
-svarsEnv.supportedMissions_Env['general40'] = true
-svarsEnv.supportedMissions_Env['general45'] = true
-svarsEnv.supportedMissions_Env['general47'] = true
-svarsEnv.supportedMissions_Env['general49'] = true
-svarsEnv.supportedMissions_Env['general51'] = true
-svarsEnv.supportedMissions_Env['general55'] = true
+local b={'general9','default2','default3','general12','general13','general15','general16','general30','general31','general33','general35','general36','general39','general40','general45','general47','general49','general51','general55'}for b,b in next,b do svarsEnv.supportedMissions_Env[b]=true end
 end)()end;bbr()
